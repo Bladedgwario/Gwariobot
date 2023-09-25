@@ -14,6 +14,7 @@ namespace DiscordBotTemplate
     {
         public static DiscordClient Client { get; private set; }
         public static CommandsNextExtension Commands { get; private set; }
+       
         static async Task Main(string[] args)
         {
             //1. Get the details of your config.json file by deserialising it

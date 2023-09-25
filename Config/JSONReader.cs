@@ -7,6 +7,8 @@ namespace DiscordBotTemplate.Config
 {
     internal class JSONReader
     {
+        internal object gpt3_api_key;
+
         public string token { get; set; }
         public string prefix { get; set; }
 
